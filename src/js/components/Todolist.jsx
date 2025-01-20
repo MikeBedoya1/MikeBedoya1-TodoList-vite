@@ -46,7 +46,7 @@ const Todolist = () => {
           </li>
 
         ))}
-        <div className="my-1">
+        <div className="my-1 list-group-item d-flex justify-content-between mt-0">
           <h6>{valueList.length} item left</h6>
         </div>
       </ul>
